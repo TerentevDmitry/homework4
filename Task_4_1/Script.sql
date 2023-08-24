@@ -1,13 +1,7 @@
-music_service
+--music_service
 --***********add genres
 insert into genres_list (genre_name)
-values ('Pop'),
-('Rock'),
-('Jazz');
-
-update genres_list
-set genre_name = 'Chanson'
-where id_genres_list = 1;
+values ('Chanson'), ('Rock'), ('Jazz');
 
 -- ***********add performers
 insert into performers_list (performer_name)
