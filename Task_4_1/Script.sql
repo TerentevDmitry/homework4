@@ -2,8 +2,8 @@ music_service
 --***********add genres
 insert into genres_list (genre_name)
 values ('Pop'),
-values ('Rock'),
-values ('Jazz');
+('Rock'),
+('Jazz');
 
 update genres_list
 set genre_name = 'Chanson'
